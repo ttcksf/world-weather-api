@@ -1,6 +1,5 @@
 import "./App.css";
 import "./index.css";
-import { UilReact } from "@iconscout/react-unicons/";
 import TopButtons from "./components/TopButtons";
 import Inputs from "./components/Inputs";
 import TimeAndLocation from "./components/TimeAndLocation";

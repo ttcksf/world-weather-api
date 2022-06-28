@@ -15,10 +15,7 @@ function Inputs({ setQuery, units, setUnits }) {
       });
     }
   };
-  const handleUnitsChange = (e) => {
-    const selectedUnit = e.currentTarget.name;
-    if (city !== "") setQuery({ q: city });
-  };
+
   return (
     <div className="flex flex-row justify-center my-6">
       <div className="flex flex-row w-3/4 items-center justify-center space-x-4">
