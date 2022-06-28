@@ -34,17 +34,17 @@ function TemperatureAndDetails({
         <div className="flex flex-col space-y-2">
           <div className="flex font-light txt-sm items-center justify-center">
             <UilTemperature size={18} className="mr-1" />
-            Real feel:
+            体感気温:
             <span className="font-medium ml-1">{`${feels_like.toFixed()}℃`}</span>
           </div>
           <div className="flex font-light txt-sm items-center justify-center">
             <UilTear size={18} className="mr-1" />
-            Humidity:
+            湿度:
             <span className="font-medium ml-1">{`${humidity.toFixed()}`}</span>
           </div>
           <div className="flex font-light txt-sm items-center justify-center">
             <UilWind size={18} className="mr-1" />
-            Wind:
+            風速:
             <span className="font-medium ml-1">{`${speed.toFixed()}km/h`}</span>
           </div>
         </div>
